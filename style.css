@@ -1,0 +1,525 @@
+body {
+  /*background: url() no-repeat;*/
+  background-image: url(http://i1301.photobucket.com/albums/ag119/jabattack1/clouds_zpsjupnhatn.jpg);
+  /*background-color:black;*/
+  background-size: 1260px;
+  background-repeat: repeat-y;
+  position:absolute;
+  font-family: Georgia, serif;
+  /*background-position: center;*/
+  background-attachment:scroll;
+  /*overflow-x: hidden;*/
+  width:1260px;
+  height: 4500px;
+  margin: 0 auto;
+}
+
+#start {
+	position:absolute;
+	margin-top:250px;
+}
+
+
+#stuff {
+	position:absolute;
+	margin-top:450px;
+}
+
+#logobox {
+	position:absolute;
+	border: black;
+ 	border-style:solid;
+ 	border-width:4px;
+ 	border-radius:5px;
+	z-index: -2;
+	width: 330px;
+	height: 135px;
+	background-color:white;
+	margin-top:20px;
+	margin-left:20px;
+	z-index:5;
+}
+#boro {
+	position: absolute;
+	width:550px;
+}
+
+#cleaners {
+	position: absolute;
+	width:400px;
+	margin-top:-40px;
+	margin-left:40px;
+}
+
+#birds {
+	position:absolute;
+	/*margin-top:-100px;*/
+  	left: 500px;
+}
+
+@keyframes birds {
+  from {
+    transform: translate(0,0);
+  }
+
+  to {
+    transform: translate(1920px,0);
+  }
+}
+
+#balloon {
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 2s infinite  alternate;
+    height:200px;
+    width:100px;
+    margin-left:1000px;
+    margin-top:430px;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+
+
+#top_banner {
+	font-family: 'Arvo', Georgia, Times, serif;
+	position: absolute;
+	margin-top:270px;
+	margin-left:0px;
+	z-index:5;
+	width:100%;
+	height:30px;
+	/*background-color:rgba(0,0,0,0.3);*/
+	/*border-style: solid;
+	border-color:white;
+	border-width:2px;*/
+}
+
+#laundry {
+	position:absolute;
+	margin-top:300px;
+	margin-left:0px;
+	width:100%;
+}
+
+#laundrypic {
+	position:absolute;
+	width:100%;
+}
+
+#kite {
+	position:absolute;
+	margin-top:1100px;
+}
+
+#kitepic {
+	position:absolute;
+	margin-left:1020px;
+	height:300px;
+	width:200px;
+	-webkit-animation: mover 2s infinite  alternate;
+    animation: mover 2s infinite  alternate;
+}
+
+#year {
+	font-family: 'Arvo', Georgia, Times, serif;
+	position: absolute;
+	margin-top:590px;
+	margin-left:20%;
+	z-index:5;
+	width:800px;
+	font-size:20px;
+}
+
+#servant{
+	font-family: 'Arvo', Georgia, Times, serif;
+	position: absolute;
+	margin-top:590px;
+	margin-left:240px;
+	z-index:5;
+	width:750px;
+}
+
+#address {
+	font-family: 'Arvo', Georgia, Times, serif;
+	position: absolute;
+	margin-top:150px;
+	margin-left:40px;
+	z-index:5;
+}
+
+#address1 {
+	font-family: 'Arvo', Georgia, Times, serif;
+	position: absolute;
+	margin-top:120px;
+	margin-left:10px;
+	z-index:5;
+	width:600px;
+	font-size: 22px;
+	color:black;
+	/*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
+}
+
+#schedule {
+	font-family: 'Arvo', Georgia, Times, serif;
+	position: absolute;
+	margin-top:70px;
+	margin-left:0px;
+	z-index:5;
+	width:600px;
+	font-size: 22px;
+	color:black;
+	/*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
+}
+
+
+#explanation {
+	position:absolute;
+	margin-top:120px;
+	margin-left:10px;
+	z-index:5;
+	width:1150px;
+	font-size: 22px;
+	color:black;
+}
+
+#map{
+	position:absolute;
+	width:600px;
+	height:450px;
+	margin-top:-120px;
+	margin-left:550px;
+	border-style: solid;
+	border-width:2px;
+	border-color:white;
+	border-radius:5px;
+	/*background-color:white;*/
+}
+
+#phone {
+	position:absolute;
+	margin-top:-14px;
+	margin-left:85px;
+	z-index:5;
+}
+
+#services_anchor {
+	position:absolute;
+	text-decoration: none;
+	margin-left:26%;
+	font-size:30px;
+	color:black;
+	/*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
+}
+
+#services_anchor:hover {
+	color:white;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#about_anchor {
+	position:absolute;
+	text-decoration: none;
+	margin-left:43%;
+	font-size:30px;
+	color:black;
+	/*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
+}
+
+#about_anchor:hover {
+	color:white;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#contact_anchor {
+	position:absolute;
+	text-decoration: none;
+	margin-left:61%;
+	font-size:30px;
+	color:black;
+	/*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
+}
+
+#contact_anchor:hover {
+	color:white;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#services {
+	font-family: 'Arvo', Georgia, Times, serif;
+	position: absolute;
+	margin-top:750px;
+	margin-left:40px;
+	/*width:900px;*/
+}
+
+#servicesheading {
+	position:absolute;
+	width:205px;
+	/*border-style: solid;
+	border-color:black;
+	border-radius:5px;
+	background-color:white;
+	padding-left:5px;*/
+}
+
+#servicestop {
+	position:absolute;
+	margin-top:43px;
+	margin-left:250px;
+	text-decoration: none;
+	color:black;
+	font-size: 15px;
+	/*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
+	width:200px;
+}
+
+#servicestop:hover{
+	color:white;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#servicesabout {
+	position:absolute;
+	margin-top:43px;
+	margin-left:320px;
+	text-decoration: none;
+	color:black;
+	font-size: 15px;
+	/*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
+	width:200px;
+}
+
+#servicesabout:hover{
+	color:white;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#servicescontact {
+	position:absolute;
+	margin-top:43px;
+	margin-left:405px;
+	text-decoration: none;
+	color:black;
+	font-size: 15px;
+	/*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
+	width:200px;
+}
+
+#servicescontact:hover{
+	color:white;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#row1 {
+	position:absolute;
+	margin-top:180px;
+	margin-left:10px;
+	font-size:20px;
+	width:450px;
+}
+
+#row2 {
+	position:absolute;
+	margin-top:180px;
+	margin-left:490px;
+	font-size:20px;
+	width:450px;
+}
+
+#row3 {
+	position:absolute;
+	margin-top:180px;
+	margin-left:830px;
+	font-size:20px;
+	width:380px;
+}
+
+
+#about {
+	font-family: 'Arvo', Georgia, Times, serif;
+	position: absolute;
+	margin-top:4550px;
+	margin-left:40px;
+	/*width:900px;*/
+}
+
+#aboutheading {
+	position:absolute;
+	width:148px;
+	/*border-style: solid;
+	border-color:black;
+	border-radius:5px;
+	background-color:white;
+	padding-left:5px;*/
+}
+
+#abouttop {
+	position:absolute;
+	margin-top:43px;
+	margin-left:250px;
+	text-decoration: none;
+	color:black;
+	font-size: 15px;
+	/*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
+	width:200px;
+}
+
+#abouttop:hover{
+	color:white;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#aboutservices {
+	position:absolute;
+	margin-top:43px;
+	margin-left:320px;
+	text-decoration: none;
+	color:black;
+	font-size: 15px;
+	/*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
+	width:200px;
+}
+
+#aboutservices:hover{
+	color:white;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#aboutcontact {
+	position:absolute;
+	margin-top:43px;
+	margin-left:405px;
+	text-decoration: none;
+	color:black;
+	font-size: 15px;
+	/*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
+	width:200px;
+}
+
+#aboutcontact:hover{
+	color:white;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#contact {
+	font-family: 'Arvo', Georgia, Times, serif;
+	position: absolute;
+	margin-top:1450px;
+	margin-left:40px;
+	/*width:1800px;*/
+}
+
+#contactheading {
+	position:absolute;
+	width:175px;
+	/*padding-left:4px;
+	border-style: solid;
+	border-color:black;
+	border-radius:5px;
+	background-color:white;*/
+}
+
+#contacttop {
+	position:absolute;
+	margin-top:43px;
+	margin-left:250px;
+	text-decoration: none;
+	color:black;
+	font-size: 15px;
+	/*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
+	width:200px;
+}
+
+#contacttop:hover{
+	color:white;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#contactservices {
+	position:absolute;
+	margin-top:43px;
+	margin-left:320px;
+	text-decoration: none;
+	color:black;
+	font-size: 15px;
+	/*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
+	width:200px;
+}
+
+#contactservices:hover{
+	color:white;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#contactabout {
+	position:absolute;
+	margin-top:43px;
+	margin-left:405px;
+	text-decoration: none;
+	color:black;
+	font-size: 15px;
+	/*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
+	width:200px;
+}
+
+#contactabout:hover{
+	color:white;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#house {
+	position:absolute;
+	margin-top:4750px;
+	width:100%;
+	/*background-color: black;*/
+}
+#onhill {
+	position:absolute;
+	/*margin-top:4700px;*/
+	width:100%;
+}
+
+#tree {
+	position:absolute;
+	/*margin-top:11%;*/
+	margin-left:100px;
+	height:270px;
+	width: 350px;
+}
+
+#rights {
+	font-family: 'Arvo', Georgia, Times, serif;
+	color: #FFFFFF;
+	margin-left: 0px;
+	margin-top: 5180px;
+	position: absolute;
+	
+	height: 20px; 
+    width: 1150px; 
+	/*border-style: solid;*/
+    /*background-color:rgba(0,0,0,0.5);*/
+    /*border-radius: 5px 5px 5px 5px;*/
+}
+
+#copyright {
+	font-family: 'Arvo', Georgia, Times, serif;
+	color: black;
+	margin-left: 100px;
+	margin-top: 2px;
+	position: absolute;
+	font-size: 12px;
+}
+
+#cred{
+	font-family: 'Arvo', Georgia, Times, serif;
+	color: black;
+	margin-left: 945px;
+	margin-top: 2px;
+	position: absolute;
+	font-size: 12px;
+}
