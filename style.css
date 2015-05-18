@@ -16,7 +16,8 @@ body {
   /*overflow-x: hidden;*/
   width:1260px;
   height: 4500px;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
+  margin:50px 0px; padding:0px;
 }
 
 #start {
