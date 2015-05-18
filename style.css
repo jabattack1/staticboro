@@ -16,6 +16,8 @@ body {
   width:1260px;
   height: 4500px;
   margin: 0 auto; 
+  display: table-cell;
+  vertical-align: middle;
 
 }
 
