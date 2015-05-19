@@ -1,23 +1,27 @@
 html{
-	margin: auto;
+	margin-left: auto;
+    margin-right: auto;
 }
 
 body {
   /*background: url() no-repeat;*/
-  background-image: url(http://i1301.photobucket.com/albums/ag119/jabattack1/clouds_zpsjupnhatn.jpg);
+  background:url(http://i1301.photobucket.com/albums/ag119/jabattack1/clouds_zpsjupnhatn.jpg) repeat-y center top;
   /*background-color:black;*/
-  background-size: 1260px;
+  /*background-size: 1260px;*/
   background-repeat: repeat-y;
   position:absolute;
   font-family: Georgia, serif;
   /*background-position: center;*/
   background-attachment:scroll;
   /*overflow-x: hidden;*/
-  width:1260px;
-  height: 4500px;
-  margin: 0 auto; 
-  display: table-cell;
-  vertical-align: middle;
+ 
+}
+
+#page-wrap{
+	/*background-size: 100%;*/
+	width:1260px;
+  	height: 4500px;
+  	margin: 0 auto;
 
 }
 
