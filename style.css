@@ -231,6 +231,10 @@ body {
 	z-index:5;
 }
 
+#phone1{
+	margin-top:-20px;
+}
+
 #services_anchor {
 	position:absolute;
 	text-decoration: none;
