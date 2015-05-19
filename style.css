@@ -1,29 +1,29 @@
 html{
-	margin-left: auto;
-    margin-right: auto;
 }
 
 body {
   /*background: url() no-repeat;*/
-  background:url(http://i1301.photobucket.com/albums/ag119/jabattack1/clouds_zpsjupnhatn.jpg) repeat-y center top;
   /*background-color:black;*/
-  /*background-size: 1260px;*/
+  background:url(http://i1301.photobucket.com/albums/ag119/jabattack1/clouds_zpsjupnhatn.jpg) repeat-y center top;
+  background-size: 1000px;
   background-repeat: repeat-y;
-  position:absolute;
+	width:1000px;
+  	height: 4500px;
+  	margin: 0 auto;
+  position:relative;
+}
+}
+
+#page-wrap {
   font-family: Georgia, serif;
   /*background-position: center;*/
   background-attachment:scroll;
   /*overflow-x: hidden;*/
- 
-}
-
-#page-wrap{
-	/*background-size: 100%;*/
-	width:1260px;
-  	height: 4500px;
   	margin: 0 auto;
-
+     /*width: 900px;*/
+     /*margin: 0 auto;*/
 }
+
 
 #start {
 	position:absolute;
@@ -485,7 +485,7 @@ body {
 
 #house {
 	position:absolute;
-	margin-top:4750px;
+	margin-top:4850px;
 	width:100%;
 	/*background-color: black;*/
 }
