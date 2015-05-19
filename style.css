@@ -5,9 +5,9 @@ body {
   /*background: url() no-repeat;*/
   /*background-color:black;*/
   background:url(http://i1301.photobucket.com/albums/ag119/jabattack1/clouds_zpsjupnhatn.jpg) repeat-y center top;
-  background-size: 1000px;
+  background-size: 1260px;
   background-repeat: repeat-y;
-	width:1000px;
+	width:1260px;
   	height: 4500px;
   	margin: 0 auto;
   position:relative;
@@ -50,6 +50,7 @@ body {
 	margin-left:20px;
 	z-index:5;
 }
+
 #boro {
 	position: absolute;
 	width:550px;
