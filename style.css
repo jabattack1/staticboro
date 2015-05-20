@@ -179,7 +179,7 @@ body {
 #schedule {
 	font-family: 'Arvo', Georgia, Times, serif;
 	position: absolute;
-	margin-top:70px;
+	margin-top:120px;
 	margin-left:0px;
 	z-index:5;
 	width:600px;
@@ -191,7 +191,7 @@ body {
 #time1 {
 	font-family: 'Arvo', Georgia, Times, serif;
 	position: absolute;
-	margin-top:70px;
+	margin-top:120px;
 	margin-left:160px;
 	z-index:5;
 	width:600px;
