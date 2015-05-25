@@ -176,11 +176,23 @@ body {
 	/*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
 }
 
+#addy1{
+	position: absolute;
+	margin-top:320px;
+	margin-left:10px;
+}
+
+#phone1{
+	position: absolute;
+	margin-top:340px;
+	margin-left:10px;
+}
+
 #schedule {
 	font-family: 'Arvo', Georgia, Times, serif;
 	position: absolute;
-	margin-top:120px;
-	margin-left:0px;
+	margin-top:320px;
+	margin-left:700px;
 	z-index:5;
 	width:600px;
 	font-size: 22px;
@@ -191,8 +203,8 @@ body {
 #time1 {
 	font-family: 'Arvo', Georgia, Times, serif;
 	position: absolute;
-	margin-top:120px;
-	margin-left:160px;
+	margin-top:320px;
+	margin-left:860px;
 	z-index:5;
 	width:600px;
 	font-size: 22px;
@@ -211,18 +223,19 @@ body {
 	color:black;
 }
 
-#map{
+
+#map {
 	position:absolute;
-	width:600px;
-	height:450px;
-	margin-top:-120px;
-	margin-left:550px;
+	width:1120px;
+	height:300px;
+	margin-top:0px;
+	margin-left:10px;
 	border-style: solid;
 	border-width:2px;
 	border-color:black;
 	/*border-radius:5px;*/
-	/*background-color:white;*/
 }
+
 
 #phone {
 	position:absolute;
