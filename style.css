@@ -179,20 +179,20 @@ body {
 #addy1{
 	position: absolute;
 	margin-top:360px;
-	margin-left:40px;
+	margin-left:700px;
 }
 
 #phone2{
 	position: absolute;
 	margin-top:390px;
-	margin-left:40px;
+	margin-left:700px;
 }
 
 #schedule {
 	font-family: 'Arvo', Georgia, Times, serif;
 	position: absolute;
 	margin-top:320px;
-	margin-left:700px;
+	margin-left:40px;
 	z-index:5;
 	width:600px;
 	font-size: 22px;
@@ -204,7 +204,7 @@ body {
 	font-family: 'Arvo', Georgia, Times, serif;
 	position: absolute;
 	margin-top:320px;
-	margin-left:860px;
+	margin-left:200px;
 	z-index:5;
 	width:600px;
 	font-size: 22px;
