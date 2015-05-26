@@ -179,14 +179,14 @@ body {
 #addy1{
 	position: absolute;
 	margin-top:440px;
-	margin-left:390px;
+	margin-left:340px;
 	width:600px;
 }
 
 #phone2{
 	position: absolute;
 	margin-top:470px;
-	margin-left:390px;
+	margin-left:370px;
 	width:600px;
 }
 
@@ -196,7 +196,7 @@ body {
 	margin-top:360px;
 	margin-left:150px;
 	z-index:5;
-	width:1200px;
+	width:600px;
 	font-size: 22px;
 	color:black;
 	/*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
@@ -208,7 +208,7 @@ body {
 	margin-top:390px;
 	margin-left:150px;
 	z-index:5;
-	width:1200px;
+	width:1000px;
 	font-size: 22px;
 	color:black;
 	/*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
