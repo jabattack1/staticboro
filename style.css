@@ -249,13 +249,13 @@ body {
 #mapcircle {
 	position:absolute;
     overflow:hidden;
-    margin-left:100px;
+    margin-left:50px;
     margin-top:10px;
-	width: 400px;
-    height: 400px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -khtml-border-radius: 50%;
+	width: 600px;
+    height: 500px;
+    /*-moz-border-radius: 20%;*/
+    /*-webkit-border-radius: 20%;*/
+    /*-khtml-border-radius: 20%;*/
     /*border-radius: 50%;*/
     /*-o-border-radius:50%;*/
     /*background: #4679BD;*/
