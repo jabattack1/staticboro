@@ -171,7 +171,7 @@ body {
 	margin-top:120px;
 	margin-left:10px;
 	z-index:5;
-	width:600px;
+	width:200px;
 	font-size: 19px;
 	color:black;
 	/*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
@@ -179,25 +179,25 @@ body {
 
 #addy1{
 	position: absolute;
-	margin-top:0px;
-	margin-left:387px;
-	width:600px;
+	margin-top:100px;
+	margin-left:687px;
+	width:350px;
 }
 
 #phone2{
 	position: absolute;
-	margin-top:30px;
-	margin-left:500px;
-	width:600px;
+	margin-top:130px;
+	margin-left:787px;
+	width:300px;
 }
 
 #schedule {
 	font-family: 'Arvo', Georgia, Times, serif;
 	position: absolute;
-	margin-top:410px;
-	margin-left:250px;
+	margin-top:210px;
+	margin-left:727px;
 	z-index:5;
-	width:600px;
+	width:300px;
 	font-size: 17px;
 	color:black;
 	/*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
@@ -206,10 +206,10 @@ body {
 #time1 {
 	font-family: 'Arvo', Georgia, Times, serif;
 	position: absolute;
-	margin-top:440px;
-	margin-left:250px;
+	margin-top:210px;
+	margin-left:900px;
 	z-index:5;
-	width:1000px;
+	width:200px;
 	font-size: 17px;
 	color:black;
 	/*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
@@ -227,16 +227,19 @@ body {
 }
 
 
-#map {
+#mapcircle {
 	position:absolute;
-	width:1120px;
-	height:300px;
-	margin-top:80px;
-	margin-left:10px;
-	border-style: solid;
-	border-width:2px;
-	border-color:black;
-	/*border-radius:5px;*/
+    overflow:hidden;
+    margin-left:100px;
+    margin-top:10px;
+	width: 400px;
+    height: 400px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    /*border-radius: 50%;*/
+    /*-o-border-radius:50%;*/
+    /*background: #4679BD;*/
 }
 
 
