@@ -69,6 +69,13 @@ body {
   	left: 500px;
 }
 
+#sun {
+	position:absolute;
+	/*margin-top:-100px;*/
+  	left: 1070px;
+  	width:150px;
+}
+
 @keyframes birds {
   from {
     transform: translate(0,0);
