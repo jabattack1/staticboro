@@ -257,9 +257,13 @@ body {
 	position:absolute;
     overflow:hidden;
     margin-left:50px;
-    margin-top:10px;
-	width: 600px;
-    height: 500px;
+    margin-top:30px;
+	width: 450px;
+    height: 350px;
+   /* border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-top-radius: 10%;
+    border-bottom-bottom-radius: 10%;*/
     /*-moz-border-radius: 20%;*/
     /*-webkit-border-radius: 20%;*/
     /*-khtml-border-radius: 20%;*/
