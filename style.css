@@ -303,7 +303,7 @@ body {
 #about_anchor {
 	position:absolute;
 	text-decoration: none;
-	margin-left:43%;
+	margin-left:61%;
 	font-size:30px;
 	color:black;
 	/*text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;*/
@@ -318,7 +318,7 @@ body {
 #contact_anchor {
 	position:absolute;
 	text-decoration: none;
-	margin-left:61%;
+	margin-left:43%;
 	font-size:30px;
 	color:black;
 	/*text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;*/
@@ -367,7 +367,7 @@ body {
 #servicesabout {
 	position:absolute;
 	margin-top:43px;
-	margin-left:320px;
+	margin-left:405px;
 	text-decoration: none;
 	color:black;
 	font-size: 15px;
@@ -383,7 +383,7 @@ body {
 #servicescontact {
 	position:absolute;
 	margin-top:43px;
-	margin-left:405px;
+	margin-left:315px;
 	text-decoration: none;
 	color:black;
 	font-size: 15px;
@@ -458,7 +458,7 @@ body {
 #aboutservices {
 	position:absolute;
 	margin-top:43px;
-	margin-left:320px;
+	margin-left:325px;
 	text-decoration: none;
 	color:black;
 	font-size: 15px;
@@ -524,7 +524,7 @@ body {
 #contactservices {
 	position:absolute;
 	margin-top:43px;
-	margin-left:320px;
+	margin-left:325px;
 	text-decoration: none;
 	color:black;
 	font-size: 15px;
