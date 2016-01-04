@@ -318,7 +318,7 @@ body {
 #contact_anchor {
 	position:absolute;
 	text-decoration: none;
-	margin-left:43%;
+	margin-left:41%;
 	font-size:30px;
 	color:black;
 	/*text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;*/
@@ -388,7 +388,7 @@ body {
 	color:black;
 	font-size: 15px;
 	/*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
-	width:200px;
+	width:90px;
 }
 
 #servicescontact:hover{
