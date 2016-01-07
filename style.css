@@ -298,8 +298,7 @@ body {
 }
 
 #services_anchor:hover {
-	color:white;
-	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	color:black;
 }
 
 #about_anchor {
@@ -315,8 +314,7 @@ body {
 }
 
 #about_anchor:hover {
-	color:white;
-	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	color:black;
 }
 
 #contact_anchor {
@@ -331,8 +329,7 @@ body {
 }
 
 #contact_anchor:hover {
-	color:white;
-	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	color:black;
 }
 
 #services {
