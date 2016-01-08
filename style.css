@@ -263,11 +263,12 @@ body {
 #explanation {
 	position:absolute;
 	margin-top:120px;
-	margin-left:10px;
+	margin-left:340px;
 	z-index:5;
-	width:475px;
+	width:550px;
 	font-size: 17px;
 	color:black;
+	text-align: center;
 }
 
 
