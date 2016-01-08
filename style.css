@@ -11,6 +11,7 @@ body {
   	height: 4500px;
   	margin: 0 auto;
   position:relative;
+  overflow:auto;
 }
 }
 
@@ -69,6 +70,13 @@ body {
   	left: 500px;
 }
 
+#plane {
+	position:absolute;
+	/*margin-top:-100px;*/
+  	left: 500px;
+
+}
+
 #sun {
 	position:absolute;
 	/*margin-top:-100px;*/
@@ -77,6 +85,16 @@ body {
 }
 
 @keyframes birds {
+  from {
+    transform: translate(0,0);
+  }
+
+  to {
+    transform: translate(1920px,0);
+  }
+}
+
+@keyframes plane {
   from {
     transform: translate(0,0);
   }
@@ -585,6 +603,24 @@ body {
 	width:150px;
 	margin-left:1100px;
 	margin-top:-200px;
+}
+
+#treealone {
+	position:absolute;
+	/*margin-top:4700px;*/
+	width:400px;
+	margin-left:890px;
+	margin-top:-25px;
+	overflow:hidden;
+}
+
+#treealone1 {
+	position:absolute;
+	/*margin-top:4700px;*/
+	width:250px;
+	margin-left:490px;
+	margin-top:100px;
+	overflow:hidden;
 }
 
 #tree {
