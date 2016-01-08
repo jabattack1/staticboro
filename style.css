@@ -263,9 +263,9 @@ body {
 #explanation {
 	position:absolute;
 	margin-top:120px;
-	margin-left:160px;
+	margin-left:60px;
 	z-index:5;
-	width:850px;
+	width:1050px;
 	font-size: 17px;
 	color:black;
 	text-align: center;
