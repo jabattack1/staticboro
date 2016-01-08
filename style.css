@@ -623,6 +623,17 @@ body {
 	overflow:hidden;
 }
 
+#treealone2 {
+	position:absolute;
+	/*margin-top:4700px;*/
+	width:200px;
+	margin-left:0px;
+	margin-top:150px;
+	overflow:hidden;
+}
+
+
+}
 #tree {
 	position:absolute;
 	/*margin-top:11%;*/
