@@ -201,6 +201,16 @@ body {
     position:absolute;
 }
 
+#bluejeans4 {
+    -webkit-animation: mover 3s infinite  alternate;
+    animation: mover 3s infinite  alternate;
+    height:50px;
+    width:30px;
+    margin-left:700px;
+    margin-top:1700px;
+    position:absolute;
+}
+
 #greenblouse {
     -webkit-animation: mover 2.5s infinite  alternate;
     animation: mover 2.5s infinite  alternate;
@@ -230,6 +240,17 @@ body {
     margin-top:1350px;
     position:absolute;
 }
+
+#greenblouse4 {
+    -webkit-animation: mover 2.5s infinite  alternate;
+    animation: mover 2.5s infinite  alternate;
+    height:50px;
+    width:30px;
+    margin-left:400px;
+    margin-top:1650px;
+    position:absolute;
+}
+
 
 #greysheet {
     -webkit-animation: mover 2.7s infinite  alternate;
