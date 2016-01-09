@@ -126,8 +126,8 @@ body {
 #greypants1 {
     -webkit-animation: mover 4s infinite  alternate;
     animation: mover 4s infinite  alternate;
-    height:230px;
-    width:140px;
+    height:190px;
+    width:100px;
     margin-left:200px;
     margin-top:70px;
     position:absolute;
