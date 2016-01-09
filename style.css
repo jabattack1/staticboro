@@ -171,6 +171,16 @@ body {
     position:absolute;
 }
 
+#balloon6 {
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 2s infinite  alternate;
+    height:50px;
+    width:40px;
+    margin-left:450px;
+    margin-top:2300px;
+    position:absolute;
+}
+
 #bluejeans {
     -webkit-animation: mover 3s infinite  alternate;
     animation: mover 3s infinite  alternate;
@@ -204,10 +214,20 @@ body {
 #bluejeans4 {
     -webkit-animation: mover 3s infinite  alternate;
     animation: mover 3s infinite  alternate;
-    height:50px;
-    width:30px;
-    margin-left:700px;
-    margin-top:1700px;
+    height:20px;
+    width:15px;
+    margin-left:600px;
+    margin-top:2350px;
+    position:absolute;
+}
+
+#bluejeans5 {
+    -webkit-animation: mover 3s infinite  alternate;
+    animation: mover 3s infinite  alternate;
+    height:120px;
+    width:100px;
+    margin-left:200px;
+    margin-top:2150px;
     position:absolute;
 }
 
@@ -248,6 +268,16 @@ body {
     width:30px;
     margin-left:400px;
     margin-top:1650px;
+    position:absolute;
+}
+
+#greenblouse5 {
+    -webkit-animation: mover 2.5s infinite  alternate;
+    animation: mover 2.5s infinite  alternate;
+    height:190px;
+    width:130px;
+    margin-left:1000px;
+    margin-top:2050px;
     position:absolute;
 }
 
