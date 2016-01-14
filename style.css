@@ -57,6 +57,13 @@ body {
 	width:550px;
 }
 
+#logo {
+	position: absolute;
+	width:250px;
+	margin-left:56px;
+	margin-top:20px;
+}
+
 #cleaners {
 	position: absolute;
 	width:400px;
