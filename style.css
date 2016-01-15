@@ -48,7 +48,7 @@ body {
 	height: 170px;
 	background-color:white;
 	margin-top:20px;
-	margin-left:450px;
+	margin-left:460px;
 	z-index:5;
 }
 
@@ -424,7 +424,7 @@ body {
 	font-family: 'Arvo', Georgia, Times, serif;
 	position: absolute;
 	margin-top:185px;
-	margin-left:470px;
+	margin-left:480px;
 	z-index:5;
 	/*text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;*/
 }
