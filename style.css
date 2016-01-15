@@ -88,7 +88,7 @@ body {
 	position:absolute;
 	/*margin-top:-100px;*/
   	left: 955px;
-  	width:290px;
+  	width:260px;
   	top:-40px;
 }
 
@@ -830,6 +830,14 @@ body {
 	width:150px;
 	margin-left:1100px;
 	margin-top:-200px;
+}
+
+#cloudsolo1 {
+	position:absolute;
+	/*margin-top:4700px;*/
+	width:150px;
+	margin-left:950px;
+	margin-top: 0px;
 }
 
 #treealone {
