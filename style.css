@@ -88,9 +88,9 @@ body {
 #sun {
 	position:absolute;
 	/*margin-top:-100px;*/
-  	left: 955px;
-  	width:260px;
-  	top:-40px;
+  	left: 985px;
+  	width:240px;
+  	top:-30px;
 }
 
 @keyframes birds {
