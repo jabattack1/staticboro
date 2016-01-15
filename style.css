@@ -529,7 +529,7 @@ body {
 #services_anchor {
 	position:absolute;
 	text-decoration: none;
-	margin-left:29%;
+	margin-left:28%;
 	font-size:30px;
 	color:black;
 	/*text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;*/
@@ -545,7 +545,7 @@ body {
 #about_anchor {
 	position:absolute;
 	text-decoration: none;
-	margin-left:64%;
+	margin-left:63%;
 	font-size:30px;
 	color:black;
 	/*text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;*/
@@ -560,7 +560,7 @@ body {
 #contact_anchor {
 	position:absolute;
 	text-decoration: none;
-	margin-left:44%;
+	margin-left:43%;
 	font-size:30px;
 	color:black;
 	/*text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;*/
