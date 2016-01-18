@@ -424,8 +424,8 @@ body {
 #address {
 	font-family: 'Arvo', Georgia, Times, serif;
 	position: absolute;
-	margin-top:160px;
-	margin-left:40px;
+	margin-top:165px;
+	margin-left:35px;
 	z-index:5;
 	/*text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;*/
 }
