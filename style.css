@@ -44,11 +44,11 @@ body {
  	border-width:4px;
  	border-radius:5px;
 	z-index: -2;
-	width: 330px;
-	height: 170px;
+	width: 280px;
+	height: 150px;
 	background-color:white;
 	margin-top:20px;
-	margin-left:460px;
+	margin-left:40px;
 	z-index:5;
 }
 
@@ -59,7 +59,7 @@ body {
 
 #logo {
 	position: absolute;
-	width:275px;
+	width:225px;
 	margin-left:25px;
 	margin-top:10px;
 }
@@ -424,8 +424,8 @@ body {
 #address {
 	font-family: 'Arvo', Georgia, Times, serif;
 	position: absolute;
-	margin-top:185px;
-	margin-left:480px;
+	margin-top:165px;
+	margin-left:40px;
 	z-index:5;
 	/*text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;*/
 }
