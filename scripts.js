@@ -47,7 +47,7 @@ function services_display3(){
     // $('#content').append(mission2);
      setTimeout(function() {
         $('#service_content').append(services);
-    }, 2100);    
+    }, 1800);    
 }
 
 function about_display(){
