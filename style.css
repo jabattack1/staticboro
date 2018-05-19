@@ -502,7 +502,7 @@ body {
     margin-left:100px;
     margin-top:10px;
 	width: 450px;
-    height: 400px;
+    height: 450px;
    /* border-bottom-right-radius: 10%;
     border-bottom-left-radius: 10%;
     border-bottom-top-radius: 10%;
@@ -513,9 +513,9 @@ body {
     border-radius: 50%;
     -o-border-radius:50%;
     /*background: #4679BD;*/
-    border-style:solid;
+/*    border-style:solid;
     border-color:black;
-    border-width:2px;
+    border-width:3px;*/
     background-color: white;
 }
 
