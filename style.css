@@ -7,7 +7,7 @@ body {
   background:url(http://i1301.photobucket.com/albums/ag119/jabattack1/clouds_zpsjupnhatn.jpg) repeat-y center top;
   background-size: 1260px;
   background-repeat: repeat-y;
-  background-color:black;
+  /*background-color:black;*/
 	width:1260px;
   	height: 4500px;
   	margin: 0 auto;
@@ -397,7 +397,8 @@ body {
 
 #kitepic {
 	position:absolute;
-	margin-left:1020px;
+	margin-left:1060px;
+	/*background-color:red;*/
 	height:300px;
 	width:200px;
 	-webkit-animation: mover 2s infinite  alternate;
@@ -811,7 +812,7 @@ body {
 #house {
 	position:absolute;
 	margin-top:4790px;
-	width:100%;
+	width:1260px;
 	/*background-color: black;*/
 }
 #onhill {
@@ -854,9 +855,9 @@ body {
 	position:absolute;
 	/*margin-top:4700px;*/
 	width:400px;
-	margin-left:890px;
+	margin-left:860px;
 	margin-top:-25px;
-	overflow:hidden;
+	overflow:hidden !important;
 }
 
 #treealone1 {
