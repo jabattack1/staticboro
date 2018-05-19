@@ -367,7 +367,7 @@ body {
 #top_banner {
 	font-family: 'Arvo', Georgia, Times, serif;
 	position: absolute;
-	margin-top:270px;
+	margin-top:50px;
 	margin-left:0px;
 	z-index:5;
 	width:100%;
@@ -580,9 +580,10 @@ body {
 	font-family: 'Arvo', Georgia, Times, serif;
 	position: absolute;
 	margin-top:1050px;
-	margin-left:40px;
+	/*margin-left:40px;*/
 	width:1260px;
-	color:black;
+	height:100px;
+	background-color: rgba(255, 255, 255, 0.5);
 	/*width:900px;*/
 }
 
@@ -676,7 +677,9 @@ body {
 	font-family: 'Arvo', Georgia, Times, serif;
 	position: absolute;
 	margin-top:4550px;
-	margin-left:40px;
+	width:1260px;
+	height:100px;
+	background-color: rgba(255, 255, 255, 0.5);
 	/*width:900px;*/
 }
 
@@ -742,8 +745,9 @@ body {
 	font-family: 'Arvo', Georgia, Times, serif;
 	position: absolute;
 	margin-top:2050px;
-	margin-left:40px;
-	/*width:1800px;*/
+	width:1260px;
+	height:100px;
+	background-color: rgba(255, 255, 255, 0.5);
 }
 
 #contactheading {
