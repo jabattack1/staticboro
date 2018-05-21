@@ -553,8 +553,18 @@ body {
 }
 
 #services_anchor:hover {
-	color:white;
-	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+		text-decoration: none;
+	color: white;
+	text-shadow:
+	-1.5px -1.5px 0 black,
+    1.5px -1.5px 0 black,
+    -1.5px 1.5px 0 black,
+    1.5px 1.5px 0 black; 
+    -webkit-transition: 200ms linear 0s;
+	-moz-transition: 200ms linear 0s;
+	-o-transition: 200ms linear 0s;
+	transition: 200ms linear 0s;
+	outline: 0 none;
 }
 
 #about_anchor {
@@ -568,8 +578,18 @@ body {
 }
 
 #about_anchor:hover {
-	color:white;
-	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+		text-decoration: none;
+	color: white;
+	text-shadow:
+    -1.5px -1.5px 0 black,
+    1.5px -1.5px 0 black,
+    -1.5px 1.5px 0 black,
+    1.5px 1.5px 0 black; 
+	-webkit-transition: 500ms linear 0s;
+	-moz-transition: 500ms linear 0s;
+	-o-transition: 500ms linear 0s;
+	transition: 500ms linear 0s;
+	outline: 0 none;
 }
 
 #contact_anchor {
@@ -585,8 +605,18 @@ body {
 }
 
 #contact_anchor:hover {
-	color:white;
-	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+		text-decoration: none;
+	color: white;
+	text-shadow: 
+	-1.5px -1.5px 0 black,
+    1.5px -1.5px 0 black,
+    -1.5px 1.5px 0 black,
+    1.5px 1.5px 0 black; 
+    -webkit-transition: 500ms linear 0s;
+	-moz-transition: 500ms linear 0s;
+	-o-transition: 500ms linear 0s;
+	transition: 500ms linear 0s;
+	outline: 0 none;
 }
 
 #services {
@@ -622,8 +652,18 @@ body {
 }
 
 #servicestop:hover{
-	color:white;
-	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+		text-decoration: none;
+	color: white;
+	text-shadow:
+    -1.5px -1.5px 0 black,
+    1.5px -1.5px 0 black,
+    -1.5px 1.5px 0 black,
+    1.5px 1.5px 0 black;
+	-webkit-transition: 500ms linear 0s;
+	-moz-transition: 500ms linear 0s;
+	-o-transition: 500ms linear 0s;
+	transition: 500ms linear 0s;
+	outline: 0 none;
 }
 
 #servicesabout {
@@ -638,8 +678,18 @@ body {
 }
 
 #servicesabout:hover{
-	color:white;
-	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+		text-decoration: none;
+	color: white;
+	text-shadow: 
+    -1.5px -1.5px 0 black,
+    1.5px -1.5px 0 black,
+    -1.5px 1.5px 0 black,
+    1.5px 1.5px 0 black; 	
+    -webkit-transition: 500ms linear 0s;
+	-moz-transition: 500ms linear 0s;
+	-o-transition: 500ms linear 0s;
+	transition: 500ms linear 0s;
+	outline: 0 none;
 }
 
 #servicescontact {
@@ -654,8 +704,18 @@ body {
 }
 
 #servicescontact:hover{
-	color:white;
-	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+		text-decoration: none;
+	color: white;
+	text-shadow:
+	-1.5px -1.5px 0 black,
+    1.5px -1.5px 0 black,
+    -1.5px 1.5px 0 black,
+    1.5px 1.5px 0 black; 
+    -webkit-transition: 500ms linear 0s;
+	-moz-transition: 500ms linear 0s;
+	-o-transition: 500ms linear 0s;
+	transition: 500ms linear 0s;
+	outline: 0 none;
 }
 
 #row1 {
@@ -718,8 +778,18 @@ body {
 }
 
 #abouttop:hover{
-	color:white;
-	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	text-decoration: none;
+	color: white;
+	text-shadow:
+    -1.5px -1.5px 0 black,
+    1.5px -1.5px 0 black,
+    -1.5px 1.5px 0 black,
+    1.5px 1.5px 0 black; 
+	-webkit-transition: 500ms linear 0s;
+	-moz-transition: 500ms linear 0s;
+	-o-transition: 500ms linear 0s;
+	transition: 500ms linear 0s;
+	outline: 0 none;;
 }
 
 #aboutservices {
@@ -734,8 +804,18 @@ body {
 }
 
 #aboutservices:hover{
-	color:white;
-	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+		text-decoration: none;
+	color: white;
+	text-shadow: 
+    -1.5px -1.5px 0 black,
+    1.5px -1.5px 0 black,
+    -1.5px 1.5px 0 black,
+    1.5px 1.5px 0 black; 	
+    -webkit-transition: 500ms linear 0s;
+	-moz-transition: 500ms linear 0s;
+	-o-transition: 500ms linear 0s;
+	transition: 500ms linear 0s;
+	outline: 0 none;
 }
 
 #aboutcontact {
@@ -750,8 +830,18 @@ body {
 }
 
 #aboutcontact:hover{
-	color:white;
-	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+		text-decoration: none;
+	color: white;
+	text-shadow:
+    -1.5px -1.5px 0 black,
+    1.5px -1.5px 0 black,
+    -1.5px 1.5px 0 black,
+    1.5px 1.5px 0 black; 
+	-webkit-transition: 500ms linear 0s;
+	-moz-transition: 500ms linear 0s;
+	-o-transition: 500ms linear 0s;
+	transition: 500ms linear 0s;
+	outline: 0 none;
 }
 
 #contact {
@@ -785,8 +875,18 @@ body {
 }
 
 #contacttop:hover{
-	color:white;
-	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+		text-decoration: none;
+	color: white;
+	text-shadow:
+    -1.5px -1.5px 0 black,
+    1.5px -1.5px 0 black,
+    -1.5px 1.5px 0 black,
+    1.5px 1.5px 0 black; 
+	-webkit-transition: 500ms linear 0s;
+	-moz-transition: 500ms linear 0s;
+	-o-transition: 500ms linear 0s;
+	transition: 500ms linear 0s;
+	outline: 0 none;
 }
 
 #contactservices {
@@ -801,8 +901,18 @@ body {
 }
 
 #contactservices:hover{
-	color:white;
-	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+		text-decoration: none;
+	color: white;
+	text-shadow: 
+	-1.5px -1.5px 0 black,
+    1.5px -1.5px 0 black,
+    -1.5px 1.5px 0 black,
+    1.5px 1.5px 0 black; 
+    -webkit-transition: 500ms linear 0s;
+	-moz-transition: 500ms linear 0s;
+	-o-transition: 500ms linear 0s;
+	transition: 500ms linear 0s;
+	outline: 0 none;
 }
 
 #contactabout {
@@ -817,8 +927,18 @@ body {
 }
 
 #contactabout:hover{
-	color:white;
-	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+		text-decoration: none;
+	color: white;
+	text-shadow:
+    -1.5px -1.5px 0 black,
+    1.5px -1.5px 0 black,
+    -1.5px 1.5px 0 black,
+    1.5px 1.5px 0 black; 
+	-webkit-transition: 500ms linear 0s;
+	-moz-transition: 500ms linear 0s;
+	-o-transition: 500ms linear 0s;
+	transition: 500ms linear 0s;
+	outline: 0 none;
 }
 
 #house {
