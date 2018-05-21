@@ -553,17 +553,8 @@ body {
 }
 
 #services_anchor:hover {
-		text-decoration: none;
-	color: white;
-	text-shadow:
-	-1.5px -1.5px 0 black,
-    1.5px -1.5px 0 black,
-    -1.5px 1.5px 0 black,
-    1.5px 1.5px 0 black; 
-    -webkit-transition: 100ms linear 0s;
-	-moz-transition: 100ms linear 0s;
-	-o-transition: 100ms linear 0s;
-	transition: 100ms linear 0s;
+	text-decoration: none;
+	color: #FFBE28;
 	outline: 0 none;
 }
 
@@ -578,17 +569,8 @@ body {
 }
 
 #about_anchor:hover {
-		text-decoration: none;
-	color: white;
-	text-shadow:
-    -1.5px -1.5px 0 black,
-    1.5px -1.5px 0 black,
-    -1.5px 1.5px 0 black,
-    1.5px 1.5px 0 black; 
-	-webkit-transition: 100ms linear 0s;
-	-moz-transition: 100ms linear 0s;
-	-o-transition: 100ms linear 0s;
-	transition: 100ms linear 0s;
+	text-decoration: none;
+	color: #FFBE28;
 	outline: 0 none;
 }
 
@@ -605,17 +587,8 @@ body {
 }
 
 #contact_anchor:hover {
-		text-decoration: none;
-	color: white;
-	text-shadow: 
-	-1.5px -1.5px 0 black,
-    1.5px -1.5px 0 black,
-    -1.5px 1.5px 0 black,
-    1.5px 1.5px 0 black; 
-    -webkit-transition: 100ms linear 0s;
-	-moz-transition: 100ms linear 0s;
-	-o-transition: 100ms linear 0s;
-	transition: 100ms linear 0s;
+	text-decoration: none;
+	color: #FFBE28;
 	outline: 0 none;
 }
 
@@ -652,17 +625,8 @@ body {
 }
 
 #servicestop:hover{
-		text-decoration: none;
-	color: white;
-	text-shadow:
-    -1.5px -1.5px 0 black,
-    1.5px -1.5px 0 black,
-    -1.5px 1.5px 0 black,
-    1.5px 1.5px 0 black;
-	-webkit-transition: 100ms linear 0s;
-	-moz-transition: 100ms linear 0s;
-	-o-transition: 100ms linear 0s;
-	transition: 100ms linear 0s;
+	text-decoration: none;
+	color: #FFBE28;
 	outline: 0 none;
 }
 
@@ -678,17 +642,8 @@ body {
 }
 
 #servicesabout:hover{
-		text-decoration: none;
-	color: white;
-	text-shadow: 
-    -1.5px -1.5px 0 black,
-    1.5px -1.5px 0 black,
-    -1.5px 1.5px 0 black,
-    1.5px 1.5px 0 black; 	
-    -webkit-transition: 100ms linear 0s;
-	-moz-transition: 100ms linear 0s;
-	-o-transition: 100ms linear 0s;
-	transition: 100ms linear 0s;
+	text-decoration: none;
+	color: #FFBE28;
 	outline: 0 none;
 }
 
@@ -704,17 +659,8 @@ body {
 }
 
 #servicescontact:hover{
-		text-decoration: none;
-	color: white;
-	text-shadow:
-	-1.5px -1.5px 0 black,
-    1.5px -1.5px 0 black,
-    -1.5px 1.5px 0 black,
-    1.5px 1.5px 0 black; 
-    -webkit-transition: 100ms linear 0s;
-	-moz-transition: 100ms linear 0s;
-	-o-transition: 100ms linear 0s;
-	transition: 100ms linear 0s;
+	text-decoration: none;
+	color: #FFBE28;
 	outline: 0 none;
 }
 
@@ -781,16 +727,7 @@ body {
 
 #abouttop:hover{
 	text-decoration: none;
-	color: white;
-	text-shadow:
-    -1.5px -1.5px 0 black,
-    1.5px -1.5px 0 black,
-    -1.5px 1.5px 0 black,
-    1.5px 1.5px 0 black; 
-	-webkit-transition: 100ms linear 0s;
-	-moz-transition: 100ms linear 0s;
-	-o-transition: 100ms linear 0s;
-	transition: 100ms linear 0s;
+	color: #FFBE28;
 	outline: 0 none;;
 }
 
@@ -806,17 +743,8 @@ body {
 }
 
 #aboutservices:hover{
-		text-decoration: none;
-	color: white;
-	text-shadow: 
-    -1.5px -1.5px 0 black,
-    1.5px -1.5px 0 black,
-    -1.5px 1.5px 0 black,
-    1.5px 1.5px 0 black; 	
-    -webkit-transition: 100ms linear 0s;
-	-moz-transition: 100ms linear 0s;
-	-o-transition: 100ms linear 0s;
-	transition: 100ms linear 0s;
+	text-decoration: none;
+	color: #FFBE28;
 	outline: 0 none;
 }
 
@@ -832,17 +760,8 @@ body {
 }
 
 #aboutcontact:hover{
-		text-decoration: none;
-	color: white;
-	text-shadow:
-    -1.5px -1.5px 0 black,
-    1.5px -1.5px 0 black,
-    -1.5px 1.5px 0 black,
-    1.5px 1.5px 0 black; 
-	-webkit-transition: 100ms linear 0s;
-	-moz-transition: 100ms linear 0s;
-	-o-transition: 100ms linear 0s;
-	transition: 100ms linear 0s;
+	text-decoration: none;
+	color: #FFBE28;
 	outline: 0 none;
 }
 
@@ -878,17 +797,8 @@ body {
 }
 
 #contacttop:hover{
-		text-decoration: none;
-	color: white;
-	text-shadow:
-    -1.5px -1.5px 0 black,
-    1.5px -1.5px 0 black,
-    -1.5px 1.5px 0 black,
-    1.5px 1.5px 0 black; 
-	-webkit-transition: 100ms linear 0s;
-	-moz-transition: 100ms linear 0s;
-	-o-transition: 100ms linear 0s;
-	transition: 100ms linear 0s;
+	text-decoration: none;
+	color: #FFBE28;
 	outline: 0 none;
 }
 
@@ -904,17 +814,8 @@ body {
 }
 
 #contactservices:hover{
-		text-decoration: none;
-	color: white;
-	text-shadow: 
-	-1.5px -1.5px 0 black,
-    1.5px -1.5px 0 black,
-    -1.5px 1.5px 0 black,
-    1.5px 1.5px 0 black; 
-    -webkit-transition: 100ms linear 0s;
-	-moz-transition: 100ms linear 0s;
-	-o-transition: 100ms linear 0s;
-	transition: 100ms linear 0s;
+	text-decoration: none;
+	color: #FFBE28;
 	outline: 0 none;
 }
 
@@ -930,17 +831,8 @@ body {
 }
 
 #contactabout:hover{
-		text-decoration: none;
-	color: white;
-	text-shadow:
-    -1.5px -1.5px 0 black,
-    1.5px -1.5px 0 black,
-    -1.5px 1.5px 0 black,
-    1.5px 1.5px 0 black; 
-	-webkit-transition: 100ms linear 0s;
-	-moz-transition: 100ms linear 0s;
-	-o-transition: 100ms linear 0s;
-	transition: 100ms linear 0s;
+	text-decoration: none;
+	color: #FFBE28;
 	outline: 0 none;
 }
 
