@@ -624,7 +624,7 @@ body {
 	position: absolute;
 	margin-top:1050px;
 	margin-left:40px;
-	width:1260px;
+	width:1220px;
 	height:80px;
 	/*background-color: rgba(255, 255, 255, 0.5);*/
 	/*width:900px;*/
@@ -750,7 +750,8 @@ body {
 	font-family: 'Arvo', Georgia, Times, serif;
 	position: absolute;
 	margin-top:4550px;
-	width:1260px;
+	margin-left:40px;
+	width:1220px;
 	height:100px;
 	/*background-color: rgba(255, 255, 255, 0.5);*/
 	/*width:900px;*/
@@ -848,7 +849,8 @@ body {
 	font-family: 'Arvo', Georgia, Times, serif;
 	position: absolute;
 	margin-top:2050px;
-	width:1260px;
+	margin-left:40px;
+	width:1220px;
 	height:100px;
 	/*background-color: rgba(255, 255, 255, 0.5);*/
 }
