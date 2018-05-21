@@ -2,11 +2,11 @@ html{
 }
 
 body {
-  /*background: url() no-repeat;*/
+  background: url() no-repeat;
   /*background-color:black;*/
-  background:url(http://i1301.photobucket.com/albums/ag119/jabattack1/clouds_zpsjupnhatn.jpg) repeat-y center top;
+  background:url(http://i1301.photobucket.com/albums/ag119/jabattack1/clouds_zpsjupnhatn.jpg) center top;
   background-size: 1260px;
-  background-repeat: repeat-y;
+  /*background-repeat: repeat-y;*/
   /*background-color:black;*/
 	width:1260px;
   	height: 4500px;
