@@ -570,7 +570,7 @@ body {
 #about_anchor {
 	position:absolute;
 	text-decoration: none;
-	margin-left:250px;
+	margin-left:300px;
 	font-size:30px;
 	color:black;
 	/*text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;*/
@@ -625,7 +625,7 @@ body {
 	margin-top:1050px;
 	/*margin-left:40px;*/
 	width:1260px;
-	height:100px;
+	height:80px;
 	background-color: rgba(255, 255, 255, 0.5);
 	/*width:900px;*/
 }
