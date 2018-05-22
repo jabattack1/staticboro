@@ -79,6 +79,7 @@ body {
 
 #birds {
 	position:absolute;
+	width:350px;
 	/*margin-top:-100px;*/
   	left: 500px;
   	z-index:-1;
