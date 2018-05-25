@@ -36,5 +36,7 @@ var contact ="<div id='address1'><p id='addy1'>37 South St, New Providence, NJ 0
 $('#service_content').append(services);
 $('#about_content').append(about);
 $('#contact_content').append(contact);
+
+
   
 });

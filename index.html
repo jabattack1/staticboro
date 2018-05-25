@@ -20,6 +20,14 @@
   float:right;
 }
 
+#rotate1 {
+  position:absolute;left:0px;top:10px;width:100%;height:300px;
+}
+
+#rotate1 IMG {
+  float:right;
+}
+
 
 </style>
 
@@ -33,8 +41,13 @@
 <!--  <img src="http://i1301.photobucket.com/albums/ag119/jabattack1/cloud%20single_zps4geiduka.png" id='cloudsolo1'> -->
  <div id="rotate" >
   <div>
-   <img src="http://i1301.photobucket.com/albums/ag119/jabattack1/birds_zpsnjh48g0h.gif" alt='birds' id='birds' />
-   
+   <img src="http://i1301.photobucket.com/albums/ag119/jabattack1/birds_zpsnjh48g0h.gif" alt='birds' id='birds' />  
+  </div>
+ </div>
+
+  <div id="rotate1" >
+  <div>
+   <img src="https://i.imgur.com/PPfSzW0.png" alt='balloonFloat' id='balloonFloat' />  
   </div>
  </div>
 
@@ -72,6 +85,7 @@ var zxcRotate={
  },
 
 
+
  animate:function(o,a,f,t,srt,mS){
   clearTimeout(a[4]);
   var oop=this,ms=new Date()-srt,n=(t-f)/mS*ms+f;
@@ -86,14 +100,68 @@ var zxcRotate={
    oop.rotate(o);
   }
  }
-
-
 }
 
 zxcRotate.init({
  ID:'rotate',
  Animate:12
 });
+
+
+
+var zxcRotate1={
+
+ init:function(o){
+  var p=document.getElementById(o.ID),ms=o.Animate,b=p?p.getElementsByTagName('DIV')[0]:null,i=b?b.getElementsByTagName('IMG'):[],bc;
+  if (i[0]){
+   p.style.overflow='hidden';
+   b.style.position='absolute';
+   b.style.width='3000px';
+   o.bc=b.cloneNode(true);
+   o.bc.style.top='0px';
+   o.p=p;
+   o.lgth=i.length;
+   o.b=[b,'left'];
+   o.lst=i[o.lgth-1];
+   b.appendChild(o.bc);
+   o.ms=typeof(ms)=='number'&&ms>0?ms*1700:10000;
+   this.rotate1(o);
+  }
+ },
+
+ rotate1:function(o){
+  var i=o.p.getElementsByTagName('IMG'),sz,z0=0;
+  for (;z0<i.length;z0++){
+   i[z0].style.marginLeft=(o.p.offsetWidth-i[0].width*o.lgth)/o.lgth+'px';
+  }
+  sz=o.lst.width+o.lst.offsetLeft;
+  o.bc.style.left=sz+'px';
+  this.animate(o,o.b,-sz,0,new Date(),o.ms);
+ },
+
+
+
+ animate:function(o,a,f,t,srt,mS){
+  clearTimeout(a[4]);
+  var oop=this,ms=new Date()-srt,n=(t-f)/mS*ms+f;
+  if (isFinite(n)){
+   a[0].style[a[1]]=n+'px';
+  }
+  if (ms<mS){
+   a[4]=setTimeout(function(){ oop.animate(o,a,f,t,srt,mS); },10);
+  }
+  else {
+   a[0].style[a[1]]=t+'px';
+   oop.rotate1(o);
+  }
+ }
+}
+
+zxcRotate1.init({
+ ID:'rotate1',
+ Animate:12
+});
+
 
 /*]]>*/
 </script>
