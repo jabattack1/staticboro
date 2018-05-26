@@ -14,10 +14,8 @@ $(function() {
 });
 
 $(window).load(function(){
-  // $('body').css('overflow', 'hidden');
     setTimeout(function() {
       $('.loader').fadeOut();
-      $('body').css('overflow', 'scroll');
     }, 2000);
 });
 // $.scrollingParallax('http://i1301.photobucket.com/albums/ag119/jabattack1/clouds_zpsjupnhatn.jpg');
