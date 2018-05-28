@@ -16,6 +16,7 @@ $(function() {
 $(window).load(function(){
     setTimeout(function() {
       $('.loader').fadeOut();
+      $('body').css('overflowY', 'auto'); 
     }, 2000);
 });
 // $.scrollingParallax('http://i1301.photobucket.com/albums/ag119/jabattack1/clouds_zpsjupnhatn.jpg');

@@ -12,7 +12,7 @@ body {
   	height: 4500px;
   	margin: 0 auto;
   position:relative;
-  overflow:auto;
+  overflow:hidden;
 }
 
 #page-wrap {
