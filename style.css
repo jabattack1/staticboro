@@ -551,13 +551,13 @@ body {
     border-radius: 50%;
     -o-border-radius:50%;
     /*background: #4679BD;*/
-    /*border-style:solid;*/
-    /*border-color:black;*/
-    /*border-width:3px;*/
+    border-style:solid;
+    border-color:black;
+    border-width:3px;
     /*background-color: white;*/
       /*border-radius: 50%;*/
-  	border: 5px dashed black;
-  	-webkit-animation-name: Rotate;
+  	/*border: 5px dashed black;*/
+/*  	-webkit-animation-name: Rotate;
   	-webkit-animation-duration: 50s;
   	-webkit-animation-iteration-count: infinite;
   	-webkit-animation-timing-function: linear;
@@ -568,7 +568,7 @@ body {
   	-ms-animation-name: Rotate;
   	-ms-animation-duration: 50s;
   	-ms-animation-iteration-count: infinite;
-  	-ms-animation-timing-function: linear;
+  	-ms-animation-timing-function: linear;*/
 }
 
 @-webkit-keyframes Rotate {
