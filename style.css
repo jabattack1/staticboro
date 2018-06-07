@@ -531,7 +531,7 @@ body {
     -moz-border-radius: 20%;
     -webkit-border-radius: 20%;
     -khtml-border-radius: 20%;
-    border-radius: 20%;
+    border-radius: 50%;
     -o-border-radius:50%;
 }
 
@@ -552,7 +552,7 @@ body {
     -moz-border-radius: 20%;
     -webkit-border-radius: 20%;
     -khtml-border-radius: 20%;
-    border-radius: 20%;
+    border-radius: 50%;
     -o-border-radius:50%;
     /*background: #4679BD;*/
     border-style:solid;
