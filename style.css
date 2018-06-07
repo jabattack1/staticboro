@@ -526,12 +526,16 @@ body {
 	width: 444px;
     height: 445px;
 	z-index:10;
+	/*.border-radius(@border-radius * 40);*/
+	/*border-radius:20%;*/
     -moz-border-radius: 20%;
     -webkit-border-radius: 20%;
     -khtml-border-radius: 20%;
-    border-radius: 50%;
+    border-radius: 20%;
     -o-border-radius:50%;
 }
+
+
 
 #mapcircle {
 	position:absolute;
@@ -548,7 +552,7 @@ body {
     -moz-border-radius: 20%;
     -webkit-border-radius: 20%;
     -khtml-border-radius: 20%;
-    border-radius: 50%;
+    border-radius: 20%;
     -o-border-radius:50%;
     /*background: #4679BD;*/
     border-style:solid;
