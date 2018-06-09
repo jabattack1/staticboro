@@ -4,7 +4,7 @@ html{
 body {
   background: url() no-repeat;
   /*background-color:black;*/
-  background:url(https://i.imgur.com/TlVt0gl.jpg) center top;
+  background:url(https://i.imgur.com/w5AtrgT.jpg) center top;
   background-size: 1260px;
   /*background-repeat: repeat-y;*/
   /*background-color:black;*/
@@ -103,6 +103,19 @@ body {
    	-webkit-animation: mover 3s infinite  alternate;
     animation: mover 3s infinite  alternate;
 }
+
+
+
+#blackPlane {
+	position:absolute;
+	margin-top:2350px;
+	width:25px;
+	/*margin-top:-100px;*/
+  	left: 500px;
+  	z-index:-1;
+}
+
+
 
 #sun {
 	position:absolute;
@@ -947,6 +960,24 @@ body {
 	width:150px;
 	margin-left:950px;
 	margin-top: 0px;
+}
+
+#cloudsolo2 {
+	position:absolute;
+	/*margin-top:4700px;*/
+	width:310px;
+	margin-left:100px;
+	margin-top:0px;
+	z-index:-1;
+}
+
+#cloudsolo3 {
+	position:absolute;
+	/*margin-top:4700px;*/
+	width:200px;
+	margin-left:800px;
+	margin-top:0px;
+	z-index:-1;
 }
 
 #treealone {

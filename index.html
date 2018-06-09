@@ -70,6 +70,12 @@
   </div>
  </div>
 
+   <div id="rotate2" >
+  <div>
+   <img src="https://i.imgur.com/AJfm4Yp.png" alt='blackPlane' id='blackPlane' />  
+  </div>
+ </div>
+
 
 <script type="text/javascript">
 /*<![CDATA[*/
@@ -183,6 +189,60 @@ zxcRotate1.init({
 });
 
 
+var zxcRotate2={
+
+ init:function(o){
+  var p=document.getElementById(o.ID),ms=o.Animate,b=p?p.getElementsByTagName('DIV')[0]:null,i=b?b.getElementsByTagName('IMG'):[],bc;
+  if (i[0]){
+   p.style.overflow='hidden';
+   b.style.position='absolute';
+   b.style.width='3000px';
+   o.bc=b.cloneNode(true);
+   o.bc.style.top='0px';
+   o.p=p;
+   o.lgth=i.length;
+   o.b=[b,'left'];
+   o.lst=i[o.lgth-1];
+   b.appendChild(o.bc);
+   o.ms=typeof(ms)=='number'&&ms>0?ms*2000:10000;
+   this.rotate2(o);
+  }
+ },
+
+ rotate2:function(o){
+  var i=o.p.getElementsByTagName('IMG'),sz,z0=0;
+  for (;z0<i.length;z0++){
+   i[z0].style.marginLeft=(o.p.offsetWidth-i[0].width*o.lgth)/o.lgth+'px';
+  }
+  sz=o.lst.width+o.lst.offsetLeft;
+  o.bc.style.left=sz+'px';
+  this.animate(o,o.b,-sz,0,new Date(),o.ms);
+ },
+
+
+
+ animate:function(o,a,f,t,srt,mS){
+  clearTimeout(a[4]);
+  var oop=this,ms=new Date()-srt,n=(t-f)/mS*ms+f;
+  if (isFinite(n)){
+   a[0].style[a[1]]=n+'px';
+  }
+  if (ms<mS){
+   a[4]=setTimeout(function(){ oop.animate(o,a,f,t,srt,mS); },10);
+  }
+  else {
+   a[0].style[a[1]]=t+'px';
+   oop.rotate2(o);
+  }
+ }
+}
+
+zxcRotate1.init({
+ ID:'rotate2',
+ Animate:23
+});
+
+
 /*]]>*/
 </script>
 
@@ -248,6 +308,7 @@ Pick-up and Delivery Service</p>
 <div id='about'><h1 id='aboutheading'>About Us</h1><a href="#top" id='abouttop'>To Top</a><a href="#services" id='aboutservices' onClick="services_display2();return false;">Services</a><a href="#contact" id='aboutcontact' onClick="contact_display2();return false;">Contact Us</a>
 
 <div id='about_content'>
+
 <!-- <p id='explanation'>We strive to pursue perfection, in service and in quality. Come experience our service - we are here to help you. We offer Dry Cleaning, Tailoring, Leather & Suede Cleaning plus many other services.  All of this is done with the finest care and attention to detail. Come and try us out, we look forward to helping you with all of your garment care needs.</p> -->
 </div>
 
@@ -291,7 +352,8 @@ Pick-up and Delivery Service</p>
  </div>
 
 <div id='contact_content'>
-
+<img src="https://i.imgur.com/6A8gPz0.png" id='cloudsolo2'>
+<img src="https://i.imgur.com/6A8gPz0.png" id='cloudsolo3'>
 <!-- <div id="address1">
 
 <p id='addy1'>37 South St, New Providence, NJ 07974</p>
