@@ -13,6 +13,7 @@ body {
   	margin: 0 auto;
   position:relative;
   overflow:hidden;
+  background-repeat: no-repeat;
 }
 
 #page-wrap {
@@ -930,6 +931,22 @@ body {
 	position:absolute;
 	/*margin-top:4700px;*/
 	width:100%;
+}
+
+
+#woman {
+	position:absolute;
+	z-index: 10;
+	/*margin-top:4700px;*/
+	width:45px;
+	margin-left:590px;
+	margin-top:220px;
+/*	-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";*/
 }
 
 #smoke {
