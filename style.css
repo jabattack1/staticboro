@@ -949,6 +949,21 @@ body {
         -ms-filter: "FlipH";*/
 }
 
+#cat {
+	position:absolute;
+	z-index: 10;
+	/*margin-top:4700px;*/
+	width:30px;
+	margin-left:520px;
+	margin-top:325px;
+/*	-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";*/
+}
+
 #smoke {
 	position:absolute;
 	/*margin-top:4700px;*/
