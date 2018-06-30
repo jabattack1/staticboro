@@ -5,6 +5,7 @@ html {
 
 
 body {
+	display: table-cell;
   background: url() no-repeat;
   /*background-color:black;*/
   background:url(https://i.imgur.com/w5AtrgT.jpg) center top;
