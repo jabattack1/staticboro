@@ -47,6 +47,14 @@
   float:right;
 }
 
+#rotate1a {
+  position:absolute;left:0px;top:10px;width:100%;height:300px;
+}
+
+#rotate1a IMG {
+  float:right;
+}
+
 
 </style>
 
@@ -70,7 +78,7 @@
   </div>
  </div>
 
-   <div id="rotate2" >
+   <div id="rotate1a" >
   <div>
    <img src="https://i.imgur.com/AJfm4Yp.png" alt='blackPlane' id='blackPlane' />  
   </div>
@@ -188,7 +196,6 @@ zxcRotate1.init({
  Animate:12
 });
 
-
 var zxcRotate2={
 
  init:function(o){
@@ -198,18 +205,18 @@ var zxcRotate2={
    b.style.position='absolute';
    b.style.width='3000px';
    o.bc=b.cloneNode(true);
-   o.bc.style.top='10px';
+   o.bc.style.top='0px';
    o.p=p;
    o.lgth=i.length;
    o.b=[b,'left'];
    o.lst=i[o.lgth-1];
    b.appendChild(o.bc);
    o.ms=typeof(ms)=='number'&&ms>0?ms*2000:10000;
-   this.rotate2(o);
+   this.rotate1a(o);
   }
  },
 
- rotate2:function(o){
+ rotate1a:function(o){
   var i=o.p.getElementsByTagName('IMG'),sz,z0=0;
   for (;z0<i.length;z0++){
    i[z0].style.marginLeft=(o.p.offsetWidth-i[0].width*o.lgth)/o.lgth+'px';
@@ -232,15 +239,16 @@ var zxcRotate2={
   }
   else {
    a[0].style[a[1]]=t+'px';
-   oop.rotate2(o);
+   oop.rotate1a(o);
   }
  }
 }
 
 zxcRotate2.init({
- ID:'rotate2',
+ ID:'rotate1a',
  Animate:26
 });
+
 
 
 /*]]>*/
@@ -344,12 +352,7 @@ Pick-up and Delivery Service</p>
 <div id='kite'>
 <img src="https://i.imgur.com/ysDfkSM.png" id='kitepic'>
 </div>
-<div id="rotate1" >
-  <div>
-   
-  
-  </div>
- </div>
+
 
 <div id='contact_content'>
 <img src="https://i.imgur.com/6A8gPz0.png" id='cloudsolo2'>
